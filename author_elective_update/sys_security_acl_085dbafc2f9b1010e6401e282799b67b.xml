@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_58872_needit_needit">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>allow user to view records where they are the Requested for.</description>
+        <name>x_58872_needit_needit</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[var isUser = gs.hasRole("x_58872_needit.needit_user");
+var isRequestedFor = ]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 18:18:41</sys_created_on>
+        <sys_id>085dbafc2f9b1010e6401e282799b67b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_security_acl_085dbafc2f9b1010e6401e282799b67b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 18:51:57</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9f9c4f3cdb899b0c439ef70fbf961913</instance_id>
+        <instance_name>dev53617</instance_name>
+        <name>sys_security_acl_085dbafc2f9b1010e6401e282799b67b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition table="x_58872_needit_needit"&gt;u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ&lt;item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description&gt;allow user to view records where they are the Requested for.&lt;/description&gt;&lt;name&gt;x_58872_needit_needit&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var isUser = gs.hasRole("x_58872_needit.needit_user");
+var isRequestedFor = ]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-14 18:18:41&lt;/sys_created_on&gt;&lt;sys_id&gt;085dbafc2f9b1010e6401e282799b67b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_58872_needit_needit&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_085dbafc2f9b1010e6401e282799b67b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-14 18:51:57&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1160470364</payload_hash>
+        <record_name>x_58872_needit_needit</record_name>
+        <reverted_from/>
+        <source>570dccb82f831010e6401e282799b659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 18:51:58</sys_created_on>
+        <sys_id>2775cf742fdb1010e6401e282799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1748df59d1c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 18:51:58</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2f75cf74a8db1010f1bd8d6c121906c0</update_guid>
+        <update_guid_history>2f75cf74a8db1010f1bd8d6c121906c0:-1160470364,0cedb630ebdb1010b5b569f4ff77e447:23056669</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 19:05:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0e9565c2020344c793c5ffab8b9b01b1</sys_id>
+        <sys_metadata>085dbafc2f9b1010e6401e282799b67b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="x_58872_needit_needit">cdd479112f039010e6401e282799b62b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_085dbafc2f9b1010e6401e282799b67b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_085dbafc2f9b1010e6401e282799b67b">2775cf742fdb1010e6401e282799b6c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 19:05:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
